@@ -4,12 +4,6 @@
 
 This function calculates the price of a European call or put option using the **generalized Black-Scholes formula**, which extends the standard model to incorporate a continuous dividend yield.
 
-## Usage
-
-```r
-generalized_black_scholes(TypeFlag = c("c", "p"), S, X, Time, r, b, sigma)
-````
-
 ## Arguments
 
 | Argument   | Description                                                                                        |
