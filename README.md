@@ -4,15 +4,11 @@
 
 This function calculates the price of a European call or put option using the **generalized Black-Scholes formula**, which extends the standard model to incorporate a continuous dividend yield.
 
----
-
 ## Usage
 
 ```r
 generalized_black_scholes(TypeFlag = c("c", "p"), S, X, Time, r, b, sigma)
 ````
-
----
 
 ## Arguments
 
@@ -26,7 +22,6 @@ generalized_black_scholes(TypeFlag = c("c", "p"), S, X, Time, r, b, sigma)
 | `b`        | Cost of carry rate, where \$b = r - q\$ for a dividend yield \$q\$.                                |
 | `sigma`    | Volatility of the underlying asset *(annualized)*.                                                 |
 
----
 
 ## Details
 
